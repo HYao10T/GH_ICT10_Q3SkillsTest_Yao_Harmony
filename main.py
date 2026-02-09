@@ -13,6 +13,10 @@ def account_creation(e):
         elif len(password) >= 10 and password.isdigit() or password.isalpha():
             display(f"your password is too weak. please include both numbers and letters", target="output")
         else:
-            display(f"your password is too short. please make it at least 10 characters long", target="output")
+            display(f"your account has been created successfully!", target="output")
+
+    elif len(username) < 7:
+        display(f"your username is too short. please make it at least 7 characters long", target="output")
+
     else: 
         display(f"your account has been created successfully!", target="output")
