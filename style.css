@@ -1,0 +1,30 @@
+form{
+    background: rgb(232, 225, 225);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 2px;
+    width: 700px;
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(60, 64, 68);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form input{
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+output{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(212, 229, 248);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(54, 52, 52);
+}

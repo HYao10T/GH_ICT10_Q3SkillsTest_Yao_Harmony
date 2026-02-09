@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    <title>Skills Test: Account Creation</title>
+</head>
+    <body style="background-color: rgb(133, 154, 169);">
+        <form>
+            <h1>Account Creation</h1>
+            <input type="text" id="username" placeholder="enter your username"><br><br>
+            <input type="password" id="pass" placeholder="enter your password"><br><br>
+            <input type="button" py-click="account_creation" value="sign up">
+            <br><br>
+            <div id="output"></div>
+        </form>
+
+        <py-script src="main.py"></py-script>
+    </body>
+</html>
