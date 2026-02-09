@@ -6,9 +6,9 @@ def account_creation(e):
     username = document.getElementById('username').value
     password = document.getElementById('pass').value
 
-    if len(username) < 7: 
+    if len(username) > 7: 
         if password.isdigit() and password.isalpha():
-            display(f"you are account has been created", target="output")
+            display(f"your account has been created", target="output")
 
         elif len(password) >= 10 and password.isdigit() or password.isalpha():
             display(f"your password is too weak. please include both numbers and letters", target="output")
